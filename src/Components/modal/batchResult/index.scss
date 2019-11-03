@@ -1,0 +1,56 @@
+
+.batch-table {
+    margin-top: 12px;
+
+    .result-item {
+        padding: 2px;
+    }
+
+    .batch-pay-pwd {
+        margin-top: 12px;
+    }
+
+    .ant-collapse {
+        border: none;
+        background-color: transparent;
+
+        .ant-collapse-item {
+            border-bottom: none;
+
+            .ant-collapse-header {
+                padding: 12px 0 6px 0;
+                color: #ff7800;
+                border-top: 1px solid #e8e8e8;
+
+                .arrow {
+                    display: none;
+                }
+
+                .icon-zuojiantou {
+                    display: inline-block;
+                    transform: rotate(90deg);
+                    margin-left: 4px;
+                    transition: all .24s;
+                }
+
+                .icon-zuojiantou.on {
+                    transform: rotate(270deg);
+                }
+            }
+
+            .ant-collapse-content {
+                border-top: none;
+
+                .ant-collapse-content-box {
+                    padding-top: 6px;
+                }
+            }
+        }
+    }
+
+    .batch-btn {
+        padding: 12px; // button:last-child{
+        //     margin-left: 60px;
+        // }
+    }
+}

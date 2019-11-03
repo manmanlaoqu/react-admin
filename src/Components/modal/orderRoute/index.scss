@@ -1,0 +1,106 @@
+.order-loc-box {
+    position: relative;
+
+    .icon-dot-circle {
+        color: #ff7800;
+        font-size: 12px;
+        float: left;
+    }
+
+    .order-loc-info {
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.6);
+        color: #fff;
+        top: -82px;
+        left: -22px;
+        font-size: 12px;
+        padding: 6px 12px;
+        border-radius: 4px;
+
+        .title {
+            color: #ff7800;
+        }
+
+        .address {
+            max-width: 260px;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+    }
+
+    .order-loc-info::before {
+        content: "";
+        width: 0px;
+        height: 0px;
+        border-top: 10px solid rgba(0, 0, 0, 0.6);
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        position: absolute;
+        top: 72px;
+        left: 18px;
+    }
+}
+
+.order-route-step {
+    .ant-steps-dot .ant-steps-item-content {
+        width: calc(100% - 42px);
+    }
+
+    .step-title {
+        font-size: 12px;
+
+        .step-title-loc {
+            border: 1px solid;
+            padding: 2px;
+            color: #F41F1F;
+            border-radius: 3px;
+            margin-left: 4px;
+            border-color: #F41F1F;
+        }
+
+        .step-title-loc.valid {
+            color: #65CCAF;
+            border-color: #65CCAF;
+        }
+    }
+
+    .stepSpot {
+        border-radius: 50%;
+        background-color: #cccccc;
+        display: inline-block;
+        height: 10px;
+        width: 10px;
+    }
+    .stepSpot.curr {
+        background-color: #ff7800;
+    }
+
+    .stepSpot::after {
+        content: '';
+        display: inline-block;
+        width: 4px;
+        height: 4px;
+        position: absolute;
+        background-color: #fff;
+        left: 3px;
+        top: 19px;
+        border-radius: 50%;
+    }
+
+    .empty {
+        text-align: center;
+        margin: 138px 0;
+        color: #cccccc;
+
+        .iconfont {
+            margin: 12px 0;
+            font-size: 20px;
+        }
+
+        .desc {
+            margin: 6px 0 24px;
+            font-size: 12px;
+        }
+    }
+}

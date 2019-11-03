@@ -1,0 +1,129 @@
+/* Shaft 2 */
+.ebs-load2{
+    width: 98px;
+    height: 30px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%);
+}
+.ebs-load2>div {
+    height: 5px;
+    background-color: #37493e;
+    -webkit-animation: ebs_load 1s infinite ease-in-out;
+    -moz-animation: ebs_load 1s infinite ease-in-out;
+    -o-animation: ebs_load 1s infinite ease-in-out;
+    animation: ebs_load 1s infinite ease-in-out;
+}
+[class^="ebs-load"] > div {
+    float: left;
+    background: #ff7800;
+    width: 5px;
+    margin-right: 1px;
+    display: inline-block;
+  }
+[class^="ebs-load"] .shaft1 {
+    -webkit-animation-delay: 0.05s;
+    -moz-animation-delay: 0.05s;
+    -o-animation-delay: 0.05s;
+    animation-delay: 0.05s;
+  }
+  [class^="ebs-load"] .shaft2 {
+    -webkit-animation-delay: 0.1s;
+    -moz-animation-delay: 0.1s;
+    -o-animation-delay: 0.1s;
+    animation-delay: 0.1s;
+  }
+  [class^="ebs-load"] .shaft3 {
+    -webkit-animation-delay: 0.15s;
+    -moz-animation-delay: 0.15s;
+    -o-animation-delay: 0.15s;
+    animation-delay: 0.15s;
+  }
+  [class^="ebs-load"] .shaft4 {
+    -webkit-animation-delay: 0.2s;
+    -moz-animation-delay: 0.2s;
+    -o-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+  }
+  [class^="ebs-load"] .shaft5 {
+    -webkit-animation-delay: 0.25s;
+    -moz-animation-delay: 0.25s;
+    -o-animation-delay: 0.25s;
+    animation-delay: 0.25s;
+  }
+  [class^="ebs-load"] .shaft6 {
+    -webkit-animation-delay: 0.3s;
+    -moz-animation-delay: 0.3s;
+    -o-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+  }
+  [class^="ebs-load"] .shaft7 {
+    -webkit-animation-delay: 0.35s;
+    -moz-animation-delay: 0.35s;
+    -o-animation-delay: 0.35s;
+    animation-delay: 0.35s;
+  }
+  [class^="ebs-load"] .shaft8 {
+    -webkit-animation-delay: 0.4s;
+    -moz-animation-delay: 0.4s;
+    -o-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+  }
+  [class^="ebs-load"] .shaft9 {
+    -webkit-animation-delay: 0.45s;
+    -moz-animation-delay: 0.45s;
+    -o-animation-delay: 0.45s;
+    animation-delay: 0.45s;
+  }
+  [class^="ebs-load"] .shaft10 {
+    -webkit-animation-delay: 0.5s;
+    -moz-animation-delay: 0.5s;
+    -o-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+  }
+
+  @-webkit-keyframes ebs_load {
+    80% {
+      background: #b3c5a6;
+      margin-right: 5px;
+      -webkit-transform: translateX"("-10px")";
+      -moz-transform: translateX"("-10px")";
+      -ms-transform: translateX"("-10px")";
+      -o-transform: translateX"("-10px")";
+      transform: translateX"("-10px")";
+    }
+  }
+  @-moz-keyframes ebs_load {
+    80% {
+      background: #b3c5a6;
+      margin-right: 5px;
+      -webkit-transform: translateX"("-10px")";
+      -moz-transform: translateX"("-10px")";
+      -ms-transform: translateX"("-10px")";
+      -o-transform: translateX"("-10px")";
+      transform: translateX"("-10px")";
+    }
+  }
+  @-o-keyframes ebs_load {
+    80% {
+      background: #b3c5a6;
+      margin-right: 5px;
+      -webkit-transform: translateX"("-10px")";
+      -moz-transform: translateX"("-10px")";
+      -ms-transform: translateX"("-10px")";
+      -o-transform: translateX"("-10px")";
+      transform: translateX"("-10px")";
+    }
+  }
+  @keyframes ebs_load {
+    80% {
+      background: #b3c5a6;
+      margin-right: 5px;
+      -webkit-transform: translateX"("-10px")";
+      -moz-transform: translateX"("-10px")";
+      -ms-transform: translateX"("-10px")";
+      -o-transform: translateX"("-10px")";
+      transform: translateX"("-10px")";
+    }
+  }

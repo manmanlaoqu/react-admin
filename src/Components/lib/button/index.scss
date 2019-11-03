@@ -1,0 +1,60 @@
+.ant-btn.common{
+    background: #ff7800;
+    border:none;
+    color: #fff;
+    height: 28px;
+    font-size: 12px;
+}
+.ant-btn.common:active{
+    color:#fff;
+    background:#ee7103;
+}
+.ant-btn.common:focus{
+    color:#fff;
+    background:#fd9a42;
+}
+.ant-btn.common:hover{
+    color:#fff;
+    background:#fd9a42;
+}
+.ant-btn.common:disabled{
+    color:#fff;
+    background:#fcb678;
+}
+.ant-btn.common.white{
+    background: #fff;
+    color:#ff7800;
+    border:none;
+    border:1px solid #ff7800;
+}
+
+.ant-btn.common.white:active{
+    color:#ee7103;
+    border-color: #ee7103;
+}
+
+.ant-btn.common.white:focus{
+    color:#fd9a42;
+    border-color: #fd9a42;
+}
+
+.ant-btn.common.white:hover{
+    color:#fd9a42;
+    border-color: #fd9a42;
+}
+
+.ant-btn.common.white:disabled{
+    color:#fcb678;
+    border-color: #fcb678;
+}
+
+
+.ant-btn.common.red{
+    background: #fc2c2c;
+    border:1px solid #fc2c2c;
+}
+
+.ant-btn.common.red:hover,
+.ant-btn.common.red:active{
+    background:#fe2f2f;
+}

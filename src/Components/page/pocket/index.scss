@@ -1,0 +1,81 @@
+.pocket{
+    // padding: 12x 0;
+    .amount-info{
+        // padding:24px;
+        width: 50%;
+        display: inline-block;
+        text-align: center;
+        .content{
+            width: 30%;
+            text-align: left;
+            display: inline-block;
+            .head{
+                margin-bottom: 16px;
+                .title{
+                    margin-right: 18px;
+                    color:#333333;
+                }
+                .amount{
+                    font-size: 24px;
+                    // margin-right: 8px;
+                }
+            }
+            .info{
+                .amount{
+                    font-size: 24px;
+                    color:#ff7800;
+                    margin-right: 12px;
+                }
+            }
+        }
+    }
+    .amount-info:last-child{
+        float: right;
+        border:none;
+        border-left: 1px solid #ccc;
+    }
+}
+.test-table{
+    tr:hover{
+        background-color: #fff !important;
+    }
+}
+
+.pocket_wrap{
+    // border:1px solid #ccc;
+    margin:0 10px;
+    background: #fff;
+    font-size: 16px;
+    display:flex;
+    padding:16px 35px;
+    .pocket_content:first-child{
+        width:74%;
+        display:flex;
+        .content{
+            height: 72px;
+            width:30%;
+            text-align: center;
+        }
+        .content:first-child{
+            line-height: 72px;
+            width:40%;
+        }
+    }
+    .title{
+        font-size:14px;
+    }
+    .pocket_content:last-child{
+        text-align: center;
+        box-sizing: border-box;
+        padding-left:20px;
+        width:26%;
+        border-left: 1px solid #ccc;
+    }
+   .amount{
+       margin-left:12px;
+       font-size:24px; 
+   }
+}
+.anticon-money-collect{
+    display:none
+}

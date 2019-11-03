@@ -1,0 +1,62 @@
+
+.batch-table {
+    margin-top: 12px;
+
+    .result-item {
+        padding: 2px;
+    }
+
+    .batch-pay-pwd {
+        margin-top: 12px;
+    }
+
+    .ant-collapse {
+        border: none;
+        background-color: transparent;
+
+        .ant-collapse-item {
+            border-bottom: none;
+
+            .ant-collapse-header {
+                padding: 0;
+                .arrow {
+                    display: none;
+                }
+                .anticon-right{
+                    display: none;
+                }
+                .icon-zuojiantou {
+                    display: inline-block;
+                    transform: rotate(90deg);
+                    margin-left: 4px;
+                    transition: all .24s;
+                }
+                .icon-zuojiantou.on {
+                    transform: rotate(270deg);
+                }
+                .ant-divider-horizontal{
+                    margin: 8px 0;
+                    color: #ff7800;
+                    font-size: 10px;
+                }
+                .ant-divider-horizontal.ant-divider-with-text:before,.ant-divider-horizontal.ant-divider-with-text:after{
+                    border-top-color: #ff7800 !important;
+                }
+            }
+
+            .ant-collapse-content {
+                border-top: none;
+
+                .ant-collapse-content-box {
+                    padding-top: 6px;
+                }
+            }
+        }
+    }
+
+    .batch-btn {
+        padding: 12px; // button:last-child{
+        //     margin-left: 60px;
+        // }
+    }
+}

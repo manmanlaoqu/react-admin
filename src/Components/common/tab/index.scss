@@ -1,0 +1,134 @@
+.ant-tabs-bar {
+    margin: 0;
+}
+
+.yg-tab-list {
+    .ant-tabs-top-bar {
+        transition: height .3s;
+    }
+    .ant-tabs-tabpane.ant-tabs-tabpane-inactive{
+        display: none;
+    }
+}
+
+.yg-tab-list.full>.ant-tabs-top-bar {
+    height: 0;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+}
+
+.yg-tab-list>.ant-tabs-content {
+    height: calc(100% - 40px);
+    background: #f5f5f5;
+}
+
+.yg-tab-list.full>.ant-tabs-content {
+    height: 100%;
+}
+
+.tab-contextmenu::before {
+    content: '';
+    width: 0px;
+    height: 0px;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid #fff;
+    position: absolute;
+    top: -7px;
+    left: 6px;
+}
+
+.tab-contextmenu {
+    .ant-modal-body {
+        padding: 6px;
+    }
+
+    .ant-modal-confirm-btns {
+        display: none;
+    }
+
+    .ant-modal-confirm-content {
+        margin-top: 0 !important;
+    }
+
+    .ant-list-item {
+        padding: 6px 0;
+        color: #000;
+        cursor: pointer;
+        font-size: 10px;
+        border-bottom: none;
+    }
+
+    .ant-list-item:first-child {
+        padding: 10px 0;
+        border-bottom: 1px solid #e2e2e3;
+    }
+
+    .ant-list-item:last-child {
+        padding: 10px 0;
+        border-top: 1px solid #e2e2e3;
+    }
+
+    .ant-list-item.disabled {
+        cursor: not-allowed;
+        color: #999;
+        opacity: 0.8;
+    }
+
+    .ant-list-item:not(.disabled):hover {
+        color: #ff7800;
+    }
+}
+
+.ant-tabs.ant-tabs-card {
+    .ant-tabs-bar {
+        .ant-tabs-tab {
+            padding: 0 6px;
+            background: #eff2f8;
+            border-bottom: #e8e8e8 !important;
+            color: #666666;
+            margin-right: 6px;
+
+            .tab-btn {
+                i {
+                    cursor: pointer;
+                    color: #666666;
+                    transition: all .3s;
+                    font-size: 13px;
+                }
+
+                i:hover {
+                    color: #333333;
+                }
+
+                i:active {
+                    color: #999999;
+                }
+            }
+            .tab-btn.refresh{
+                display: inline-block;
+                height: 19px;
+                width: 0px;
+                overflow: hidden;
+                transition: width .3s;
+            }
+        }
+
+        .ant-tabs-tab:hover {
+            color: #333333;
+            background: #ffffff;
+            border-bottom: #ffffff;
+            .tab-btn.refresh{
+                width: 18px;
+            }
+        }
+
+        .ant-tabs-tab.ant-tabs-tab-active {
+            color: #000000;
+            background: #ffffff;
+            border-bottom: #ffffff;
+            // padding-bottom: 1px !important;
+        }
+    }
+}

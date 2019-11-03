@@ -1,0 +1,54 @@
+.yg-logo {
+    display: block;
+    padding: 12px 12px;
+    white-space: nowrap;
+    .logo {
+        display: inline-block;
+        vertical-align: middle;
+        height: 52px;
+        .logo-box{
+            height: 52px;
+            padding-top: 12px;
+            div {
+                width: 36px;
+                height: 24px;
+                background-image: url('../../../images/logo.png');
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+        }
+    }
+    .logo-text {
+        display: inline-block;
+        vertical-align: middle;
+        padding-left: 12px;
+        overflow: hidden;
+        transition: all .4s;
+        .cn {
+            color: #fff;
+            font-size: 16px; // font-weight: bold;
+        }
+        .en {
+            font-size: 10px;
+            color: #fff;
+            font-family: initial;
+            white-space: nowrap;
+        }
+    }
+   
+}
+
+.ant-layout-sider-collapsed{
+    .logo-text{
+        width: 0;
+        height: 0;
+        // opacity: 0;
+        padding: 0;
+        .en {
+            font-size: 10px;
+            color: #fff;
+            font-family: initial;
+            white-space: normal;
+        }
+    }
+}

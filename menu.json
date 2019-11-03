@@ -1,0 +1,102 @@
+{
+    "id": 8000,
+    "moduleId": "c86be9",
+    "moduleName": "发票管理",
+    "moduleUrl": "",
+    "sort": 12,
+    "subModuleList": [
+        {
+            "id": 8100,
+            "moduleId": "c86bep",
+            "moduleName": "发票管理",
+            "moduleUrl": "",
+            "sort": 0,
+            "subModuleList": [
+                {
+                    "id": 8101,
+                    "moduleId": "6c5443",
+                    "moduleName": "开票历史",
+                    "moduleUrl": "/api/web/order/invoice/list",
+                    "sort": 0,
+                    "type": "Button"
+                },
+                {
+                    "id": 8102,
+                    "moduleId": "08f554",
+                    "moduleName": "开票详情",
+                    "moduleUrl": "/api/web/order/invoice/detail",
+                    "sort": 0,
+                    "type": "Button"
+                },
+                {
+                    "id": 8103,
+                    "moduleId": "bf6fac",
+                    "moduleName": "开票申请",
+                    "moduleUrl": "/api/web/order/invoice/upsert",
+                    "sort": 0,
+                    "type": "Button"
+                },
+                {
+                    "id": 8104,
+                    "moduleId": "f1ca2f",
+                    "moduleName": "开票复制",
+                    "moduleUrl": "/api/web/order/invoice/last/info",
+                    "sort": 0,
+                    "type": "Button"
+                }
+            ],
+            "type": "Function"
+        },{
+            "id": 8200,
+            "moduleId": "c86bep",
+            "moduleName": "发票信息管理",
+            "moduleUrl": "",
+            "sort": 0,
+            "subModuleList": [
+                {
+                    "id": 8201,
+                    "moduleId": "6c5443",
+                    "moduleName": "查询",
+                    "moduleUrl": "/api/web/invoice/info",
+                    "sort": 0,
+                    "type": "Button"
+                },
+                {
+                    "id": 8202,
+                    "moduleId": "08f554",
+                    "moduleName": "修改",
+                    "moduleUrl": "/api/web/invoice/info/update",
+                    "sort": 0,
+                    "type": "Button"
+                }
+            ],
+            "type": "Function"
+        },{
+            "id": 8300,
+            "moduleId": "c86bep",
+            "moduleName": "邮寄地址管理",
+            "moduleUrl": "",
+            "sort": 0,
+            "subModuleList": [
+                {
+                    "id": 8301,
+                    "moduleId": "6c5443",
+                    "moduleName": "列表",
+                    "moduleUrl": "/api/web/invoice/address/list",
+                    "sort": 0,
+                    "type": "Button"
+                },
+                {
+                    "id": 8302,
+                    "moduleId": "08f554",
+                    "moduleName": "保存",
+                    "moduleUrl": "/api/web/invoice/address/upsert",
+                    "sort": 0,
+                    "type": "Button"
+                }
+            ],
+            "type": "Function"
+        }
+    ],
+    "type": "Module"
+}

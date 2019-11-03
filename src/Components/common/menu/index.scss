@@ -1,0 +1,41 @@
+.helpbox {
+    position: relative;
+    top: -50px;
+    text-align: center;
+
+    .help {
+        background-color: #5b5b5b;
+        border-radius: 18px;
+        padding: 6px 18px; 
+        display: inline-block;
+        color: #fff;
+        white-space: nowrap;
+        cursor: pointer;
+        transition: all .5s;
+        .text{
+            display: inline-block;
+            text-align: center;
+            width: 80px;
+            transition: all .3s;
+        }
+    }
+    .help:hover{
+        background-color: #626262;
+    }
+    .help:active{
+        background-color: #6b6b6b;
+    }
+}
+.ant-layout-sider-collapsed{
+    .helpbox{
+        .help {
+            .text{
+                width: 0px;
+                height: 0;
+                opacity: 0;
+                overflow: hidden;
+                white-space: nowrap;
+            }
+        }
+    }
+}

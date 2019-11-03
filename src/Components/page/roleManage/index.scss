@@ -1,0 +1,41 @@
+.role-container {
+    margin: 10px 12px;
+    height: calc(100vh - 117px);
+    border: 1px solid #ccc;
+    .left {
+        position: relative;
+        width: 220px;
+        float: left;
+        height: 100%;
+        border-right: 1px solid #cccccc;
+        .search-box {
+            width: 100%;
+            text-align: center;
+            background: rgb(233, 236, 244);
+            height: 40px;
+            line-height: 40px;
+            .icon-guanbi{
+                font-size: 13px;
+                transition: all .3s;
+                cursor: pointer;
+                display: inline-block;
+            }
+            .icon-guanbi:hover{
+                color:#999999;
+                transform: rotate(180deg) scale(0.8);
+            }
+            input{
+                background:#fff;
+                border:none;
+                width:100%;
+                outline: none !important;
+                height:100% !important;
+                padding:6px;
+                box-shadow: none;
+            }
+        }
+    }
+}
+.ant-switch-checked {
+    background-color: #65ccaf;
+}

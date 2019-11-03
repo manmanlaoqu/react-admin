@@ -1,0 +1,12 @@
+.expand-table {
+    width: auto !important;
+    min-width: 600px;
+    margin-left: 42px;
+    tr,
+    td {
+        min-width: 120px;
+        border: none !important;
+        border-width: 0 !important;
+        background-color: transparent !important;
+    }
+}

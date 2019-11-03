@@ -1,0 +1,68 @@
+.help-page{
+    overflow: auto;
+    .head{
+        font-weight:bold;
+        color:#fff;
+        background-color:#4a4a4a;
+        padding:18px 48px;
+    }
+    .content{
+        height: calc(100vh - 57px);
+        width: 100vw;
+        min-width: 1015px;
+        .left{
+            width: 210px;
+            height: 100%;
+            float: left;
+            padding-top: 6px;
+            background-color: #333333;
+            .list{
+                list-style: none;
+                color: #fff;
+                margin: 0;
+                padding: 0;
+                text-align: center;
+                li{
+                    padding: 12px 6px;
+                    transition: all .4s;
+                    cursor: pointer;
+                }
+                li.curr{
+                    background-color: #191919; 
+                    color: #ff7800;
+                }
+                li:hover{
+                    background-color: #191919; 
+                    color: #ff7800;
+                }
+            }
+        }
+        .right{
+            width: calc(100% - 210px);
+            // min-width: 800px;
+            // min-height: 600px;
+            float: right;
+            height: 100%;
+            position: relative;
+            .video{
+                width: 90%;
+                height: 90%;
+                max-width: 1920px;
+                max-height: 1280px;
+                padding: 12px;
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                box-shadow: 0px 0px 32px #999;
+                border-radius: 2px;
+                transform: translate(-50%,-50%);
+                video{
+                    width: 100%;
+                    height: 100%;
+                    max-width: 100%;
+                    max-height: 100%;
+                }
+            }
+        }
+    }
+}

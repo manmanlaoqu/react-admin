@@ -1,0 +1,19 @@
+.yg-selector{
+    border: 1px solid #cccccc;
+    transition: border-color .5s;
+    width: 200px;
+    border-radius: 4px;
+    .ant-select-selection{
+        border: none !important;
+        outline: none;
+        height: 28px;
+        box-shadow: none;
+    }
+    .ant-select-selection:active{
+        border: none !important;
+        box-shadow: none;
+    }
+}
+.yg-selector:hover{
+    border-color: #ff7800;
+}

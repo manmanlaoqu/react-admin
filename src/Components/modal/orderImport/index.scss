@@ -1,0 +1,77 @@
+.order-import {
+    color: #000;
+
+    .ant-upload-drag {
+        width: 100%;
+        margin-top: 12px;
+        text-align: center;
+
+        .ant-upload {
+            padding: 0 !important;
+
+            .upload {
+                padding: 24px 0;
+                background-color: #FDFAF6;
+
+                .circle {
+                    display: inline-block;
+                    border-radius: 50%;
+                    background: linear-gradient(#FAD961, #F76B1C);
+                    width: 68px;
+                    height: 68px;
+                    color: #fff;
+                    margin-top: 24px;
+
+                    .iconfont {
+                        line-height: 68px;
+                        font-size: 26px;
+                    }
+                }
+
+                .desc {
+                    margin: 24px;
+                }
+            }
+        }
+    }
+    .ant-upload-disabled{
+        .circle{
+            background: #cccccc !important;
+        }
+    }
+
+    .result{
+        max-height: 300px;
+        overflow: auto;
+        margin-top: 12px;
+        .faild-list{
+            margin-top: 6px;
+            padding: 0 12px;
+            .faild-item{
+                padding: 12px 8px;
+                border-bottom: 1px solid #f2f2f2;
+                .number{
+                    display: inline-block;
+                    width: 60px;
+                }
+            }
+        }
+    }
+    .footer{
+        text-align: right;
+        margin: 12px 0 20px 0;
+    }
+    .faild-download{
+        width: 100%;
+        cursor: pointer;
+        margin: 8px 0px;
+        height: 40px;
+        border: 1px dashed #FFA5A0;
+        background-color: #FFF2F1;
+        text-align: center;
+        color: #FC2C2C;
+        span{
+            line-height: 40px;
+        }
+    }
+}
