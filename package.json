@@ -18,7 +18,7 @@
     "keywordhighlight": "^1.0.5",
     "less": "^2.7.3",
     "less-loader": "^5.0.0",
-    "node-sass": "^4.9.0",
+    "node-sass": "^7.0.0",
     "proxyquire": "^2.0.1",
     "react": "^16.8.6",
     "react-amap": "^1.2.8",
